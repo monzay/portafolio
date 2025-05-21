@@ -234,9 +234,9 @@ export default function Page() {
             </h2>
             <div className="flex justify-center space-x-6">
               {[
-                { href: "https://github.com", icon: Github },
-                { href: "https://linkedin.com", icon: Linkedin },
-                { href: "mailto:juanperez@ejemplo.com", icon: Mail },
+                { href: "https://github.com/monzay", icon: Github },
+                { href: "https://www.linkedin.com/in/joel-martinez-5bb435286/", icon: Linkedin },
+                { href: "jm8587700@gmail.com", icon: Mail },
               ].map((social, index) => (
                 <SeccionAnimada key={index} delay={2600 + index * 200}>
                   <a
